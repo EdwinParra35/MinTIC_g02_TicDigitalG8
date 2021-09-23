@@ -1,0 +1,24 @@
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.deps.json
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\bin\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.pdb
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\Sprint_G02\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.deps.json
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint III\Codigo Fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.pdb
