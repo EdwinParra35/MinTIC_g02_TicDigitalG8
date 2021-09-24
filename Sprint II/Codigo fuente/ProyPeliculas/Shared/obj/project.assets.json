@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj",
+      "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj",
       "projectName": "ProyPeliculas.Shared",
-      "projectPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj",
+      "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj",
       "packagesPath": "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\",
-      "outputPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\obj\\",
+      "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FAMILIAPARRA\\AppData\\Roaming\\NuGet\\NuGet.Config"

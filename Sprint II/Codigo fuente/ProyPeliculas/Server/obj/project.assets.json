@@ -879,11 +879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
+      "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
       "projectName": "ProyPeliculas.Server",
-      "projectPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
+      "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
       "packagesPath": "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\",
-      "outputPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\obj\\",
+      "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FAMILIAPARRA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -898,11 +898,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Client\\ProyPeliculas.Client.csproj": {
-              "projectPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Client\\ProyPeliculas.Client.csproj"
+            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Client\\ProyPeliculas.Client.csproj": {
+              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Client\\ProyPeliculas.Client.csproj"
             },
-            "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj": {
-              "projectPath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj"
+            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj": {
+              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Shared\\ProyPeliculas.Shared.csproj"
             }
           }
         }

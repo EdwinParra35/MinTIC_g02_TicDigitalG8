@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CXq3heEEta0XhXYHBi5P5l8oTztB9Bnk1G1C84b0SldN6Vv0WGrN33+1KKP9uLPdP1+eYWujgmZrEFSaaKMHIw==",
+  "dgSpecHash": "H3DPWZbhFwY2+YNVulJPdw7WRZlgJuHUOrDdtxkNMMUlgr5kcVC9BlmRKZKqdqOOOKz8O16nN46wr73cuRWsZQ==",
   "success": true,
-  "projectFilePath": "E:\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
+  "projectFilePath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint II\\Codigo fuente\\ProyPeliculas\\Server\\ProyPeliculas.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
     "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.9\\microsoft.aspnetcore.components.5.0.9.nupkg.sha512",

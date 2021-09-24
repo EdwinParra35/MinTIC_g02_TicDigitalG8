@@ -22,3 +22,15 @@ E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debu
 E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.dll
 E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ref\ProyPeliculas.Shared.dll
 E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.deps.json
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\bin\Debug\net5.0\ProyPeliculas.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ref\ProyPeliculas.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Shared\obj\Debug\net5.0\ProyPeliculas.Shared.pdb
