@@ -1,0 +1,12 @@
+C:\ProysCicloIII\movieProyec\Shared\bin\Debug\net5.0\movieProyec.Shared.deps.json
+C:\ProysCicloIII\movieProyec\Shared\bin\Debug\net5.0\movieProyec.Shared.dll
+C:\ProysCicloIII\movieProyec\Shared\bin\Debug\net5.0\ref\movieProyec.Shared.dll
+C:\ProysCicloIII\movieProyec\Shared\bin\Debug\net5.0\movieProyec.Shared.pdb
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.dll
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\ref\movieProyec.Shared.dll
+C:\ProysCicloIII\movieProyec\Shared\obj\Debug\net5.0\movieProyec.Shared.pdb

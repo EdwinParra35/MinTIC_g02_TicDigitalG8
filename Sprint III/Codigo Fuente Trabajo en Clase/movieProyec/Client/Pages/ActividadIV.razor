@@ -1,0 +1,42 @@
+@page "/ActividadIV"
+<div class="jumbotron">
+    <h6><small>Ciclo for => Indexación [i]</small></h6>    
+    @for (var i = 0; i < Movies.Count; i++)
+    {
+        <div class="list-group mb-3">
+            <a href=""  class="list-group-item list-group-item-action flex-column ">
+                <div class="row">
+                    <div class="col md-3">
+                        <img src="@Movies[i].MovieImage" alt="" class="img-thumbnail" height="200px" width="200px">                
+                    </div>
+                    <div class="col md 9 ">
+                        <h5 class="card-title text-left"><em>@Movies[i].NameMovie</em></h5>
+                        <h5 class="card-title text-left"><em> <small>@Movies[i].descriptionMovie</small></em></h5>
+                        <small class="text-muted">@Movies[i].CurrentMovie</small>
+                    </div>
+
+                </div>
+            </a>
+    </div>
+    }
+</div>
+
+
+@code {
+
+    @*creamos lista de tipo de clase pelicula que retorna la funcion GetMovie*@
+    @* con get consultamos los valores que retornan la funcion GetMOvie*@
+    public List<Movie> Movies {get{return GetMovie();}}
+
+    @* Funcion que retorna una lista de peliculas*@
+    private List<Movie>GetMovie(){
+        return new List<Movie>(){
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_1.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_2.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_3.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_4.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_5.jpg",CurrentMovie= new DateTime(2021,09,18)}
+
+        };
+    }
+}

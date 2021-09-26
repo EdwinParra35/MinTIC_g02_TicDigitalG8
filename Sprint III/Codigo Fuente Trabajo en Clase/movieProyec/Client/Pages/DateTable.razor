@@ -1,0 +1,42 @@
+@page "/DateTable"
+<div class="jumbotron">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Imagen </th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Descripcion</th>
+      <th scope="col">Fecha de estreno</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      @foreach (var movie in GetMovie())
+      {
+         <tr> 
+             <th scope="row">@movie.MovieImage</th>
+            <td>@movie.NameMovie</td>
+            <td>@movie.descriptionMovie</td>
+            <td>@movie.CurrentMovie</td>
+        </tr>
+      }  
+      
+  </tbody>
+</table>
+
+</div>
+
+@code {
+
+    @* Funcion que retorna una lista de peliculas*@
+    private List<Movie>GetMovie(){
+        return new List<Movie>(){
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_1.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_2.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_3.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_4.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_5.jpg",CurrentMovie= new DateTime(2021,09,18)}
+
+        };
+    }
+}
