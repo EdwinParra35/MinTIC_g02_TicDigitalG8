@@ -161,9 +161,9 @@ iii. ¿Qué dificultades ha tenido?:
 
 ==========================================================================================================================================
 Diseñador de software:
-i. ¿Qué hizo ayer?:
-ii. ¿Qué hará hoy?:
-iii. ¿Qué dificultades ha tenido?:
+i. ¿Qué hizo ayer?:Diseñar Modelo Entidad Relacion
+ii. ¿Qué hará hoy?:Trabajar en el entregable para el domingo, trabajando los card con los diferentes metodos
+iii. ¿Qué dificultades ha tenido?:Dificultad en la comprension de las directivas de razor, el html, bootstrap
 
 ==========================================================================================================================================
 Tester:
@@ -196,9 +196,9 @@ iii. ¿Qué dificultades ha tenido?:
 
 ==========================================================================================================================================
 Diseñador de software:
-i. ¿Qué hizo ayer?:
-ii. ¿Qué hará hoy?:
-iii. ¿Qué dificultades ha tenido?:
+i. ¿Qué hizo ayer?: Trabajar en el proyecto
+ii. ¿Qué hará hoy?:terminar el entregable del proyecto
+iii. ¿Qué dificultades ha tenido?:comprender la interaccion que tiene el bootstrap, c#, razor, github en el proyecto
 
 ==========================================================================================================================================
 Tester:
@@ -210,7 +210,172 @@ iii. ¿Qué dificultades ha tenido?:
 
 ==========================================================================================================================================
 Enlace grabacion de reunión:
-Fecha: 20/09/2021
+Fecha: 21/09/2021
+==========================================================================================================================================
+Líder:
+i. ¿Qué hizo ayer?: 
+ii. ¿Qué hará hoy?: 
+iii. ¿Qué dificultades ha tenido?: 
+
+==========================================================================================================================================
+Administrador de configuración:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de UI:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de software:
+i. ¿Qué hizo ayer?:estudiar los comandos de github
+ii. ¿Qué hará hoy?:implementar y comprender como mostrar la informacion de las peliculas por medio de un foreach, con Cards, utilizando una clase
+iii. ¿Qué dificultades ha tenido?: Entender la coneccion del codigo del index con el HTML y el Foreach para mostrar la informacion
+
+==========================================================================================================================================
+Tester:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Enlace grabacion de reunión:
+Fecha: 22/09/2021
+==========================================================================================================================================
+Líder:
+i. ¿Qué hizo ayer?: 
+ii. ¿Qué hará hoy?: 
+iii. ¿Qué dificultades ha tenido?: 
+
+==========================================================================================================================================
+Administrador de configuración:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de UI:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de software:
+i. ¿Qué hizo ayer?:Terminar de mostrar la informacion con los card en HTML, con Foreach, conn grid-Group
+ii. ¿Qué hará hoy?:unir las ramas del github, para unificar el trabajo de los integrantes del grupo en el main
+iii. ¿Qué dificultades ha tenido?:comprender los comandos de github para llevar acabo la administracion del proyecto compartido
+
+==========================================================================================================================================
+Tester:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Enlace grabacion de reunión:
+Fecha: 23/09/2021
+==========================================================================================================================================
+Líder:
+i. ¿Qué hizo ayer?: 
+ii. ¿Qué hará hoy?: 
+iii. ¿Qué dificultades ha tenido?: 
+
+==========================================================================================================================================
+Administrador de configuración:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de UI:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de software:
+i. ¿Qué hizo ayer?:GitHUb unificado en el Main
+ii. ¿Qué hará hoy?:poner en practica y comprender la coneccion de los componentes, el For loop, las clases para la creacion de la pagina web  
+iii. ¿Qué dificultades ha tenido?:comprender para que sirve un servicio, una interfaz, la diferencia del For loop y el Foreach
+
+==========================================================================================================================================
+Tester:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Enlace grabacion de reunión:
+Fecha: 24/09/2021
+==========================================================================================================================================
+Líder:
+i. ¿Qué hizo ayer?: 
+ii. ¿Qué hará hoy?: 
+iii. ¿Qué dificultades ha tenido?: 
+
+==========================================================================================================================================
+Administrador de configuración:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de UI:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de software:
+i. ¿Qué hizo ayer?:relacionar el proyecto con el paso a paso del Sprin3
+ii. ¿Qué hará hoy?:estudiar para que sirve una interfaz, un servicio, y que aportacion tiene para crear una pagina web con futuro 
+iii. ¿Qué dificultades ha tenido?:la configuracion del servicio, la inyeccion que hay que hacer en el servicio, para que sirve el servicio
+
+==========================================================================================================================================
+Tester:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Enlace grabacion de reunión:
+Fecha: 25/09/2021
+==========================================================================================================================================
+Líder:
+i. ¿Qué hizo ayer?: 
+ii. ¿Qué hará hoy?: 
+iii. ¿Qué dificultades ha tenido?: 
+
+==========================================================================================================================================
+Administrador de configuración:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de UI:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Diseñador de software:
+i. ¿Qué hizo ayer?:identificar para que sirve cada patron en el proyecto
+ii. ¿Qué hará hoy?:crear el servicio en el proyecto
+iii. ¿Qué dificultades ha tenido?:compernder los patrones de diseño de C# y ponerlos en practica
+
+==========================================================================================================================================
+Tester:
+i. ¿Qué hizo ayer?:
+ii. ¿Qué hará hoy?:
+iii. ¿Qué dificultades ha tenido?:
+
+==========================================================================================================================================
+Enlace grabacion de reunión:
+Fecha: 26/09/2021
 ==========================================================================================================================================
 Líder:
 i. ¿Qué hizo ayer?: 
@@ -232,7 +397,7 @@ iii. ¿Qué dificultades ha tenido?:
 ==========================================================================================================================================
 Diseñador de software:
 i. ¿Qué hizo ayer?:
-ii. ¿Qué hará hoy?:
+ii. ¿Qué hará hoy?: terminar y entregar el Servicio terminado
 iii. ¿Qué dificultades ha tenido?:
 
 ==========================================================================================================================================
