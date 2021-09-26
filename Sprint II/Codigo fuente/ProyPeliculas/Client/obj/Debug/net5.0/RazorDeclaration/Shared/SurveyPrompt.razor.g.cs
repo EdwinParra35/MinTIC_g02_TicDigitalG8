@@ -13,70 +13,70 @@ namespace ProyPeliculas.Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 1 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 2 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 3 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 4 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 5 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 6 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 7 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 8 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 9 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using ProyPeliculas.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
+#line 10 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\_Imports.razor"
 using ProyPeliculas.Client.Shared;
 
 #line default
@@ -90,7 +90,7 @@ using ProyPeliculas.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "E:\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\Shared\SurveyPrompt.razor"
+#line 12 "c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Client\Shared\SurveyPrompt.razor"
        
     // Demonstrates how a parent component can supply parameters
     [Parameter]
