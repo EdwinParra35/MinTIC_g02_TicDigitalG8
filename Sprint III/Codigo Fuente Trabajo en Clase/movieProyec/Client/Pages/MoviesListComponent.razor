@@ -1,0 +1,49 @@
+
+<div class="jumbotron">
+@if (Movies == null)
+{
+    <img src="/Images/loading.gif" width="200px" height="200px">
+}else
+{
+    @foreach (var movie in GetMovie())
+    {
+    <div class="list-group mb-3">
+            <a href=""  class="list-group-item list-group-item-action flex-column ">
+                <div class="row">
+                    <div class="col md-3">
+                        <img src="@movie.MovieImage" alt="" class="img-thumbnail" height="200px" width="200px">                
+                    </div>
+                    <div class="col md 9 ">
+                        <h5 class="card-title text-left"><em>@movie.NameMovie</em></h5>
+                        <h5 class="card-title text-left"><em> <small>@movie.descriptionMovie</small></em></h5>
+                        <small class="text-muted">@movie.CurrentMovie</small>
+                    </div>
+
+                </div>
+            </a>
+    </div>
+    }
+}
+
+</div>
+
+@code {
+    @* Funcion que retorna una lista de peliculas*@
+    public List<Movie> Movies;
+    private List<Movie>GetMovie(){
+        return new List<Movie>(){
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_1.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_2.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_3.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_4.jpg",CurrentMovie= new DateTime(2021,09,18)},
+            new Movie(){NameMovie="Luca",descriptionMovie="Ambientada en un precioso pueblo costero de la Riviera italiana, narra la historia sobre el paso a la edad adulta de un chico que vive un verano inolvidable lleno de helados, pasta e infinitos paseos en scooter",MovieImage="/Images/movie_5.jpg",CurrentMovie= new DateTime(2021,09,18)}
+
+        };
+    }
+    @* Funcion que responde con tarea asincronica*@
+    protected override async Task OnInitializedAsync(){
+        await Task.Delay(1000);
+        @* Despues de 1 segundo se cargara la lista de peliculas*@
+        Movies = GetMovie();
+    }
+}

@@ -1,0 +1,15 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+<<<<<<< HEAD:Sprint II/Codigo fuente/ProyPeliculas/Server/obj/Debug/net5.0/ProyPeliculas.Server.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = ProyPeliculas.Server
+build_property.ProjectDir = c:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint II\Codigo fuente\ProyPeliculas\Server\
+=======
+build_property.RootNamespace = MovieProject.Server
+build_property.ProjectDir = C:\ProysCicloIII\MovieProject\Server\
+>>>>>>> EdwinParra-DS-SprintIII:Sprint III/Codigo Fuente Proyecto/MovieProject/Server/obj/Debug/net5.0/MovieProject.Server.GeneratedMSBuildEditorConfig.editorconfig
