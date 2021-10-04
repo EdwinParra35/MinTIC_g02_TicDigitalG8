@@ -1,0 +1,12 @@
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\bin\Debug\net5.0\ProyPeces.Shared.deps.json
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\bin\Debug\net5.0\ProyPeces.Shared.dll
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\bin\Debug\net5.0\ref\ProyPeces.Shared.dll
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\bin\Debug\net5.0\ProyPeces.Shared.pdb
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.csproj.AssemblyReference.cache
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.AssemblyInfoInputs.cache
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.AssemblyInfo.cs
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.csproj.CoreCompileInputs.cache
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.dll
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ref\ProyPeces.Shared.dll
+C:\Users\osqui\Documents\GitHub\MinTIC_g02_TicDigitalG8\Sprint III\ProyPeces\Shared\obj\Debug\net5.0\ProyPeces.Shared.pdb
