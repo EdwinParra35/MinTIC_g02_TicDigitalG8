@@ -1,0 +1,19 @@
+@page "/categories/create"
+<h6>Crear Categoria</h6>
+<FormCategory OnValidSubmit="Create" Category="Category"></FormCategory>
+@*<EditForm Model="Category" OnSubmit="Create">
+    <div class="form-group"></div>
+    <label >Categoria</label>
+    <div>
+        <InputText class="form-control" @bind-Value=@Category.Name></InputText>
+        <div>
+            <button class="btn btn-success" type="submit">Crear</button>
+        </div>
+    </div>
+</EditForm>*@
+@code{
+    private Category Category = new Category();
+    private void Create(){
+        Console.WriteLine($"Nombre de la categoria de peliculas {Category.Name}");
+    }
+}

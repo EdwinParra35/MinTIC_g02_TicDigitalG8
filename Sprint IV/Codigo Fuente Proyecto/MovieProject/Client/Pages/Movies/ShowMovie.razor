@@ -1,0 +1,12 @@
+@page "/movie/{MovieId:int}"
+@page "/movie/{MovieId:int}/{Name}"
+<h6>informacion de una pelicula</h6>
+
+@code{
+    [Parameter] public int MovieId{get;set;}
+    [Parameter] public string Moviename {get;set;}
+    protected override void OnInitialized(){
+        Console.WriteLine($"el id de la pelicula es{MovieId} y el nombre {Moviename}");
+    }
+
+}
