@@ -96,21 +96,7 @@ using MovieProject.Client.Services;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\FormMovie.razor"
-using MovieProject.Client.Pages.Components;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 2 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\FormMovie.razor"
-using MovieProject.Client.Model;
-
-#line default
-#line hidden
-#nullable disable
-    public partial class FormMovie : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class SelectorMultipleTypeaHead<T> : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -118,43 +104,36 @@ using MovieProject.Client.Model;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 84 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\FormMovie.razor"
+#line 17 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\SelectorMultipleTypeaHead.razor"
        
-    [Parameter] public Movie Movie { get; set; }
-    [Parameter] public EventCallback OnValidSubmit { get; set; }
-    [Parameter] public List<Category> CategoriasSeleccionadas { get; set; } = new List<Category>();
-    [Parameter] public List<Category> CategoriasNoSeleccionadas { get; set; } = new List<Category>();
-    [Parameter] public List<Actor> ActoresSeleccionados { get; set; } = new List<Actor>();
-
-    private string posterTemporal;
-    private List<SelectorMultipleModel> NoSeleccionados { get; set; } = new List<SelectorMultipleModel>();
-
-    private List<SelectorMultipleModel> Seleccionados { get; set; } = new List<SelectorMultipleModel>();
-
-    private void ImageSelected(string imageB64)
+    [Parameter] public List<T> ElementosSeleccionados { get; set; } = new List<T>();
+    [Parameter] public Func<string, Task<IEnumerable<T>>> SearchMethod {get;set;}
+    [Parameter] public RenderFragment<T> MyResultTemplate { get; set; }
+    [Parameter] public RenderFragment<T> MyListTemplate { get; set; }
+    T sampleItem = default(T);
+    T itemArrastrado;
+    private void HandleDragStart(T item)
     {
-        Movie.MovieImage = imageB64;
+        itemArrastrado = item;
     }
-
-    protected override void OnInitialized()
+    private void HandleDragOver(T item)
     {
-        Seleccionados = CategoriasSeleccionadas.Select(x => new SelectorMultipleModel(x.Id.ToString(), x.Name)).ToList();
-        NoSeleccionados = CategoriasNoSeleccionadas.Select(x => new SelectorMultipleModel(x.Id.ToString(), x.Name)).ToList();
-        if (!string.IsNullOrWhiteSpace(Movie.MovieImage))
+        if (!item.Equals(itemArrastrado))
         {
-            posterTemporal = Movie.MovieImage;
-            Movie.MovieImage = null;
+            var indiceElementoArrastrado = ElementosSeleccionados.IndexOf(itemArrastrado);
+            var indiceElemento = ElementosSeleccionados.IndexOf(item);
+            ElementosSeleccionados[indiceElemento] = itemArrastrado;
+            ElementosSeleccionados[indiceElementoArrastrado] = item;
         }
     }
-
-    private async Task<IEnumerable<Actor>> BuscarActores(string searchText)
+    private void ElementoSeleccionado(T item)
     {
-        return new List<Actor>(){
-        new Actor(){Id=1, ActorName="Yaneth Mejía", Photo="https://pbs.twimg.com/profile_images/1079060744891785216/dAsFSbHH_400x400.jpg"},
-        new Actor(){Id=2, ActorName="Carolina Marquez", Photo="https://archivo.autonoma.edu.co/sites/default/files/styles/medium/public/carolina-marquez-narvaez.jpg?itok=CcL43PAR"},
-        new Actor(){Id=3, ActorName="Juan Esteban", Photo="https://cdn1.vectorstock.com/i/1000x1000/29/65/cinema-award-best-actor-flat-style-vector-13602965.jpg"}
-        };
-    }    
+        if (!ElementosSeleccionados.Any(x => x.Equals(item)))
+        {
+            ElementosSeleccionados.Add(item);
+        }
+        sampleItem = default(T);
+    }
 
 #line default
 #line hidden

@@ -104,7 +104,7 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 90 "C:\ProysCicloIII\MovieProject\Client\Shared\NavMenu.razor"
+#line 98 "C:\ProysCicloIII\MovieProject\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
     private bool expandSubMenu;

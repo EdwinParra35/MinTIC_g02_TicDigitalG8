@@ -104,7 +104,7 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 32 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\CardActorsComponent.razor"
+#line 33 "C:\ProysCicloIII\MovieProject\Client\Pages\Components\CardActorsComponent.razor"
        
     [Parameter] public List<Actor> Actors { get; set; }
 

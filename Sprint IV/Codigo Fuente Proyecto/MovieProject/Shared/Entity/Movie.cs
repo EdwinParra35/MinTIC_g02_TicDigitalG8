@@ -13,12 +13,14 @@ namespace MovieProject.Shared.Entity
        public string  Sinopsis{get;set;}
        public string  MovieImage{get;set;}
        [Required (ErrorMessage ="El campo {0} es requerido")]
-       public DateTime  Premier{get;set;}
-       public int  Score{get;set;}
+       public DateTime  Premier{get;set;}       
        [Required(ErrorMessage ="El campo {0} es requerido")]
        public string Trailer{get;set;}
+       public int  Score{get;set;}
        [Required (ErrorMessage ="El campo {0} es requerido")]
        public List <CategoryMovie> CategoriesMovie {get;set;} = new List <CategoryMovie> ();
+       public List <MovieActor> MoviesActor {get;set;}
+       
        public string ShortName
         {
             get{

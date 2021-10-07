@@ -678,3 +678,9 @@ C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Act
 C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\Actoreshomne.razor.g.cs
 C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\CategoriasHome.razor.g.cs
 C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\CategoriasHome.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\CustomTypeaHead.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\SelectorMultipleTypeaHead.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\Components\CustomTypeaHead.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\Components\SelectorMultipleTypeaHead.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actors\FiltroActores.razor.g.cs
+C:\ProysCicloIII\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\Actors\FiltroActores.razor.g.cs

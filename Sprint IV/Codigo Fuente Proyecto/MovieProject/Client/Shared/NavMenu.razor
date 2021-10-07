@@ -1,5 +1,8 @@
 ﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">MovieProject</a>
+    <a class="navbar-brand" rel="home" href="" title="MinTIC">
+        <img style="max-width:80px; margin-top: -7px;"
+             src="/Images/logo.png">
+    </a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -77,6 +80,11 @@
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="/movies/search">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Buscar Peliculas
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="/Actors/search">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Buscar Actores
             </NavLink>
         </li>
         <li class="nav-item px-3">
