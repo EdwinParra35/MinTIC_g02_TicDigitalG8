@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProysCicloIII\\MovieProject\\Shared\\MovieProject.Shared.csproj",
+      "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj",
       "projectName": "MovieProject.Shared",
-      "projectPath": "C:\\ProysCicloIII\\MovieProject\\Shared\\MovieProject.Shared.csproj",
+      "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj",
       "packagesPath": "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\",
-      "outputPath": "C:\\ProysCicloIII\\MovieProject\\Shared\\obj\\",
+      "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FAMILIAPARRA\\AppData\\Roaming\\NuGet\\NuGet.Config"

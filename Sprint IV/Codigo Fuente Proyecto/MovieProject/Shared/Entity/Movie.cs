@@ -17,11 +17,12 @@ namespace MovieProject.Shared.Entity
        [Required(ErrorMessage ="El campo {0} es requerido")]
        public string Trailer{get;set;}
        public int  Score{get;set;}
+       public string MovieTime{get;set;}
        [Required (ErrorMessage ="El campo {0} es requerido")]
        public List <CategoryMovie> CategoriesMovie {get;set;} = new List <CategoryMovie> ();
        public List <MovieActor> MoviesActor {get;set;}
        
-       public string ShortName
+       /*public string ShortName
         {
             get{
                if (string.IsNullOrWhiteSpace(MovieImage))
@@ -34,6 +35,6 @@ namespace MovieProject.Shared.Entity
                    return MovieImage;
                }
             }
-        } 
+        }*/
     }
 }

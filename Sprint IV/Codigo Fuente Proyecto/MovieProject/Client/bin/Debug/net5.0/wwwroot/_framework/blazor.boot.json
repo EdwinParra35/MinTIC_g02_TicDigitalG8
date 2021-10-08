@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-9AZ7YsJz\/p2gr4E0EQXdHBqwDxoXqtzxhqC6aRsa2K8=",
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
-      "MovieProject.Shared.dll": "sha256-a+X5HFrqOnnhGwMwI7OON9ey3m8FEnCKavveD2ll4QM=",
-      "MovieProject.Client.dll": "sha256-MU\/La2W3saVb3g64f1CVMHgkp1ypv8TjkB1LyUtDt9c="
+      "MovieProject.Shared.dll": "sha256-piw7C5af3Jz3Eexmoq+P7DEAEc6CnpVDbfxG+uQ\/1Pg=",
+      "MovieProject.Client.dll": "sha256-ncO8GssbMctm7YY\/YQF0MxzyHO5iKdv5GMuZul3C\/w0="
     },
     "lazyAssembly": null,
     "pdb": {
-      "MovieProject.Shared.pdb": "sha256-JcJYPzLHe9ao7MoXub9ogwjRFLoHeQvUbLEELLbyL+o=",
-      "MovieProject.Client.pdb": "sha256-lm7fM3mONtP5UTM0XodSYEZ34Get5WXdOMED5EY5hcA="
+      "MovieProject.Shared.pdb": "sha256-Ogq05r7eXlr18Tm3yvvfj7WKYlV1dpF521atnaQbAy4=",
+      "MovieProject.Client.pdb": "sha256-XbwakY+RXSVmzGdwaYvvXk1QiOZKW5ZZlL8+sZUrxos="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

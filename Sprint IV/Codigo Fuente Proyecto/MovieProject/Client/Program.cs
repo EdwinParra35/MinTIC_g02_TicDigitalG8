@@ -24,7 +24,7 @@ namespace MovieProject.Client
         }
         /* Metodo que nos permite configurar el sistemas de inyeccion de dependencias*/
         private static void ConfigureServices(IServiceCollection services){
-            services.AddSingleton<IServiceMovie, ServiceMovie>();
+            services.AddScoped<IServiceMovie, ServiceMovie>();
             services.AddSingleton<IServiceActor, ServiceActor>();
         }
     }

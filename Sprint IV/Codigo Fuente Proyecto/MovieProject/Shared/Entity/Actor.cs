@@ -18,15 +18,4 @@ namespace MovieProject.Shared.Entity
         /* Relacion de muchos a muchos */
         public List<MovieActor> MoviesActor {get;set;}
     }
-    
-    public enum DocumentType{
-        CedulaCiudadana = 0,
-        CedulaExtranjera = 1,
-        Pasaporte = 2,
-        RegistroCivil = 3
-    }
-    public enum Gender{
-        Femenino = 0,
-        Masculino = 1
-    }
 }
