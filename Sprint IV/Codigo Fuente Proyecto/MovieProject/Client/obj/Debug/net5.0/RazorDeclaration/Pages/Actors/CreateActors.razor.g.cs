@@ -112,11 +112,17 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 4 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Actors\CreateActors.razor"
-      
+#line 6 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Actors\CreateActors.razor"
+       
     private Actor Actor = new Actor();
-    void Create(){
-        Console.WriteLine("");
+    void Create()
+    {
+        Console.WriteLine(Actor.ActorName);
+        Console.WriteLine(Actor.BirthDate);
+        Console.WriteLine(Actor.KnowCredits);
+        Console.WriteLine(Actor.Nominations);
+        Console.WriteLine(Actor.Biography);
+        Console.WriteLine(Actor.Photo);
     }
 
 #line default

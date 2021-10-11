@@ -112,15 +112,23 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Categories\CreateCategory.razor"
+#line 20 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Categories\CreateCategory.razor"
       
     private Category Category = new Category();
 
-    private async void Create(){
+    private async Task Create(){
         var httpResponse = await movie.Post("api/categories", Category);
         if(httpResponse.Error){
-            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
-            Console.WriteLine(body);
+            var body = await httpResponse.GetBody();
+            await showMessage.ShowErrorMessage(body);
+            
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 29 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Categories\CreateCategory.razor"
+                                      
         }else{
             navigationManager.NavigateTo("/categories");
         }
@@ -131,6 +139,7 @@ using MovieProject.Client.Pages.Components;
 #line hidden
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage showMessage { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movie { get; set; }
     }
 }

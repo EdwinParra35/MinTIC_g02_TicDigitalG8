@@ -104,7 +104,7 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Components\FormActor.razor"
+#line 60 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Components\FormActor.razor"
        
     string imageURL;
     [Parameter] public Actor Actor { get; set; }
@@ -112,7 +112,7 @@ using MovieProject.Client.Services;
 
     protected override void OnInitialized()
     {
-        if (!string.IsNullOrEmpty(Actor.Photo))
+        if (!string.IsNullOrWhiteSpace(Actor.Photo))
         {
             imageURL = Actor.Photo;
             Actor.Photo = null;
