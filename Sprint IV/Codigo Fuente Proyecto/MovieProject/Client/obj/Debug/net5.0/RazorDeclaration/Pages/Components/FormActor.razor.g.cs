@@ -106,7 +106,7 @@ using MovieProject.Client.Services;
 #nullable restore
 #line 60 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Components\FormActor.razor"
        
-    string imageURL;
+    private string imageURL;
     [Parameter] public Actor Actor { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
 
@@ -115,13 +115,14 @@ using MovieProject.Client.Services;
         if (!string.IsNullOrWhiteSpace(Actor.Photo))
         {
             imageURL = Actor.Photo;
+            Console.WriteLine(imageURL);
             Actor.Photo = null;
         }
     }
 
-    private void ImageSelected(string imageB64)
+    private void ImageSelected(string imagenBase64)
     {
-        Actor.Photo = imageB64;
+        Actor.Photo = imagenBase64;
         imageURL = null;
     }
 

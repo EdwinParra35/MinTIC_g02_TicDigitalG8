@@ -19,6 +19,11 @@ namespace MovieProject.Server.Controllers
         }
         [HttpPost]
         public async Task<ActionResult<int>> Post(Actor actor){
+            if (!string.IsNullOrWhiteSpace(actor.Photo))
+            {
+                var actor_photo = Convert.FromBase64String(actor.Photo);
+            }
+
             context.Add(actor);            
             await context.SaveChangesAsync();
             return actor.Id;

@@ -48,17 +48,17 @@
             </div>
             <p></p>
             <div class="form-group">
-                <ImageComponent Label="photo" ImageSelected="ImageSelected" ImageURL="@imageURL"></ImageComponent>
+                    <ImageComponent Label="Photo" ImageSelected="ImageSelected" imageURL="@imageURL"/>
             </div>
             <div class="form-group"></div>
-            <button class="btn btn-success">Guardar</button>
+            <button class="btn btn-success" type="submit">Guardar cambios</button>
         </EditForm>
     </div>
 
 </div>
 
 @code {
-    string imageURL;
+    private string imageURL;
     [Parameter] public Actor Actor { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
 
@@ -67,13 +67,14 @@
         if (!string.IsNullOrWhiteSpace(Actor.Photo))
         {
             imageURL = Actor.Photo;
+            Console.WriteLine(imageURL);
             Actor.Photo = null;
         }
     }
 
-    private void ImageSelected(string imageB64)
+    private void ImageSelected(string imagenBase64)
     {
-        Actor.Photo = imageB64;
+        Actor.Photo = imagenBase64;
         imageURL = null;
     }
 

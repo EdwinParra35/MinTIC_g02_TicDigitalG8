@@ -96,7 +96,7 @@ using MovieProject.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/actor")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/actors")]
     public partial class ShowActor : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

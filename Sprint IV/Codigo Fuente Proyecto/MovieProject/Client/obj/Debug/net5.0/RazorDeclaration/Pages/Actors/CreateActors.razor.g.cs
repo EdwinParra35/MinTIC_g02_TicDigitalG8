@@ -112,22 +112,29 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Actors\CreateActors.razor"
+#line 11 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Actors\CreateActors.razor"
        
     private Actor Actor = new Actor();
-    void Create()
-    {
-        Console.WriteLine(Actor.ActorName);
-        Console.WriteLine(Actor.BirthDate);
-        Console.WriteLine(Actor.KnowCredits);
-        Console.WriteLine(Actor.Nominations);
-        Console.WriteLine(Actor.Biography);
-        Console.WriteLine(Actor.Photo);
+    
+    private async Task Create(){
+        var httpResponse = await repositorio.Post("api/actors", Actor);
+        if(httpResponse.Error)
+        {
+            await mostrarMensajes.ShowErrorMessage(await httpResponse.GetBody());
+        }
+        else
+        {
+            navigationManager.NavigateTo("/actors");
+        }
+        Console.WriteLine($"Creando el Actor {Actor.ActorName}");
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage mostrarMensajes { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie repositorio { get; set; }
     }
 }
 #pragma warning restore 1591

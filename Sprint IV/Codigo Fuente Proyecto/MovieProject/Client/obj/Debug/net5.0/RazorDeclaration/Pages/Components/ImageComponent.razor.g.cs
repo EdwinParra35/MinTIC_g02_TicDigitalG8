@@ -104,26 +104,27 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Components\ImageComponent.razor"
+#line 28 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Client\Pages\Components\ImageComponent.razor"
        
     [Parameter] public string Label { get; set; } = "Imagen";
-    [Parameter] public string ImageURL { get; set; }
+    [Parameter] public string imageURL { get; set; }
     [Parameter] public EventCallback<string> ImageSelected { get; set; }
+    private string imagenBase64;
 
-
-    private string imageT;
     async Task OnChange(InputFileChangeEventArgs e)
     {
-        var images = e.GetMultipleFiles();
-        foreach (var image in images)
+        var imagenes = e.GetMultipleFiles();
+
+        foreach (var imagen in imagenes)
         {
-            var tamaño = new byte[image.Size];
-            await image.OpenReadStream().ReadAsync(tamaño);
-            imageT =Convert.ToBase64String(tamaño);
-            ImageURL = null;
-            await ImageSelected.InvokeAsync(imageT);
+            var arrbytes = new byte[imagen.Size];
+            await imagen.OpenReadStream().ReadAsync(arrbytes);
+            imagenBase64 = Convert.ToBase64String(arrbytes);
+            imageURL = null;
+            await ImageSelected.InvokeAsync(imagenBase64);
             StateHasChanged();
         }
+
     }
 
 #line default
