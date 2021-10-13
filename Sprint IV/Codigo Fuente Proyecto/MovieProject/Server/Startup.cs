@@ -1,3 +1,5 @@
+using System.Reflection.Metadata;
+using System.Buffers;
 using System.Net.Mime;
 using System.Net.Security;
 using Microsoft.AspNetCore.Builder;
@@ -8,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using MovieProject.Server.Storage;
 using Microsoft.EntityFrameworkCore;
 
 namespace MovieProject.Server
@@ -27,6 +30,9 @@ namespace MovieProject.Server
         {
             services.AddDbContext<ApplicationDbContext>(options=>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            // services.AddScoped<IFilesStorageClass,FilesStorageClass>();
+            services.AddScoped<IFilesStorageClass,FilesLocalStorage>();
+            services.AddHttpContextAccessor();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

@@ -149,3 +149,8 @@ C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieP
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\obj\Debug\net5.0\MovieProject.Server.Views.pdb
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\obj\Debug\net5.0\MovieProject.Server.csproj.CopyComplete
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\obj\Debug\net5.0\MovieProject.Server.genruntimeconfig.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\bin\Debug\net5.0\Azure.Core.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\bin\Debug\net5.0\Azure.Storage.Blobs.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\bin\Debug\net5.0\Azure.Storage.Common.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Server\bin\Debug\net5.0\System.Memory.Data.dll
