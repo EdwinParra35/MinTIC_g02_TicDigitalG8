@@ -1,12 +1,18 @@
 @page "/movie/{MovieId:int}"
-@page "/movie/{MovieId:int}/{Name}"
-<h6>informacion de una pelicula</h6>
+@page "/movie/{MovieId:int}/{MovieName}"
+@using MovieProject.Client.Pages.Components
+@inject IServiceMovie repositorio
+@inject IErrorMessage showMessage
+@inject NavigationManager navigationManager
+
+<h6>Ver pelicula</h6>
 
 @code{
+    @* Se muestra el id y el nombre de la pelicula en la ruta *@
     [Parameter] public int MovieId{get;set;}
-    [Parameter] public string Moviename {get;set;}
+    [Parameter] public string MovieName {get;set;}
     protected override void OnInitialized(){
-        Console.WriteLine($"el id de la pelicula es{MovieId} y el nombre {Moviename}");
+        Console.WriteLine($"el id de la pelicula es{MovieId} y el nombre {MovieName}");
     }
 
 }

@@ -1,6 +1,9 @@
-using System;
+using System.Security.AccessControl;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
+using System;
+
 namespace MovieProject.Shared.Entity
 {
     public class Actor
@@ -16,6 +19,9 @@ namespace MovieProject.Shared.Entity
         public string Biography {get;set;}
         public int Nominations {get;set;}
         /* Relacion de muchos a muchos */
+        /* Campo que no se va almacenar en ningun tabla de la bd */
+        [NotMapped]
+        public string Character{get;set;}
         public List<MovieActor> MoviesActor {get;set;}
     }
 }

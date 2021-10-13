@@ -3927,393 +3927,142 @@
         }
       },
       {
-        "HashCode": 291402046,
+        "HashCode": 1518888894,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.App",
+        "Name": "MovieProject.Client.Pages.Components.FormMovie",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.App"
-        }
-      },
-      {
-        "HashCode": 1519972870,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.App",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1851923433,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actoreshomne",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Actoreshomne"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actoreshomne"
-        }
-      },
-      {
-        "HashCode": -462443700,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actoreshomne",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Actoreshomne"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actoreshomne",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -634294510,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.CreateActors",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreateActors"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.CreateActors"
-        }
-      },
-      {
-        "HashCode": 132089693,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.CreateActors",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Actors.CreateActors"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.CreateActors",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 212923114,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.EditActor",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditActor"
+            "TagName": "FormMovie"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "ActorId",
-            "TypeName": "System.Int32",
+            "Name": "Movie",
+            "TypeName": "MovieProject.Shared.Entity.Movie",
             "Metadata": {
-              "Common.PropertyName": "ActorId"
+              "Common.PropertyName": "Movie"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoriasSeleccionadas",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
+            "Metadata": {
+              "Common.PropertyName": "CategoriasSeleccionadas"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoriasNoSeleccionadas",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
+            "Metadata": {
+              "Common.PropertyName": "CategoriasNoSeleccionadas"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActoresSeleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
+            "Metadata": {
+              "Common.PropertyName": "ActoresSeleccionados"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.EditActor"
+          "Common.TypeName": "MovieProject.Client.Pages.Components.FormMovie"
         }
       },
       {
-        "HashCode": 960074883,
+        "HashCode": -1679792507,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.EditActor",
+        "Name": "MovieProject.Client.Pages.Components.FormMovie",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MovieProject.Client.Pages.Actors.EditActor"
+            "TagName": "MovieProject.Client.Pages.Components.FormMovie"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "ActorId",
-            "TypeName": "System.Int32",
+            "Name": "Movie",
+            "TypeName": "MovieProject.Shared.Entity.Movie",
             "Metadata": {
-              "Common.PropertyName": "ActorId"
+              "Common.PropertyName": "Movie"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoriasSeleccionadas",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
+            "Metadata": {
+              "Common.PropertyName": "CategoriasSeleccionadas"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoriasNoSeleccionadas",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
+            "Metadata": {
+              "Common.PropertyName": "CategoriasNoSeleccionadas"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ActoresSeleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
+            "Metadata": {
+              "Common.PropertyName": "ActoresSeleccionados"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.EditActor",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.FormMovie",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -229288752,
+        "HashCode": -153970033,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.FiltroActores",
+        "Name": "MovieProject.Client.Pages.Components.FormActor",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FiltroActores"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.FiltroActores"
-        }
-      },
-      {
-        "HashCode": 1404377293,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.FiltroActores",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Actors.FiltroActores"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.FiltroActores",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1995886216,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.ShowActor",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShowActor"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowActor"
-        }
-      },
-      {
-        "HashCode": -2017654333,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.ShowActor",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Actors.ShowActor"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowActor",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 660567994,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.ShowwActors",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShowwActors"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowwActors"
-        }
-      },
-      {
-        "HashCode": 1738144521,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Actors.ShowwActors",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Actors.ShowwActors"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowwActors",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1235473925,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.CategoriasHome",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CategoriasHome"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.CategoriasHome"
-        }
-      },
-      {
-        "HashCode": -839677419,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.CategoriasHome",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.CategoriasHome"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.CategoriasHome",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 830710785,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.CreateCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreateCategory"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.CreateCategory"
-        }
-      },
-      {
-        "HashCode": -1996220289,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.CreateCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Categories.CreateCategory"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.CreateCategory",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1013974005,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.EditCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditCategory"
+            "TagName": "FormActor"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
+            "Name": "Actor",
+            "TypeName": "MovieProject.Shared.Entity.Actor",
             "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.EditCategory"
-        }
-      },
-      {
-        "HashCode": 1200868275,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.EditCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Categories.EditCategory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.EditCategory",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -142341569,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.FormCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FormCategory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Category",
-            "TypeName": "MovieProject.Shared.Entity.Category",
-            "Metadata": {
-              "Common.PropertyName": "Category"
+              "Common.PropertyName": "Actor"
             }
           },
           {
@@ -4328,27 +4077,27 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.FormCategory"
+          "Common.TypeName": "MovieProject.Client.Pages.Components.FormActor"
         }
       },
       {
-        "HashCode": -364411195,
+        "HashCode": 1565671870,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.FormCategory",
+        "Name": "MovieProject.Client.Pages.Components.FormActor",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MovieProject.Client.Pages.Categories.FormCategory"
+            "TagName": "MovieProject.Client.Pages.Components.FormActor"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Category",
-            "TypeName": "MovieProject.Shared.Entity.Category",
+            "Name": "Actor",
+            "TypeName": "MovieProject.Shared.Entity.Actor",
             "Metadata": {
-              "Common.PropertyName": "Category"
+              "Common.PropertyName": "Actor"
             }
           },
           {
@@ -4363,162 +4112,7 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.FormCategory",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -695626847,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.ShowCategories",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShowCategories"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategories"
-        }
-      },
-      {
-        "HashCode": 1931369267,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.ShowCategories",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Categories.ShowCategories"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategories",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 109169833,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.ShowCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShowCategory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoryId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "CategoryId"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Categoryname",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Categoryname"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategory"
-        }
-      },
-      {
-        "HashCode": -696478434,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Categories.ShowCategory",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Categories.ShowCategory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoryId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "CategoryId"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Categoryname",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Categoryname"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategory",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 978921612,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.CardActorsComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CardActorsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Actors",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
-            "Metadata": {
-              "Common.PropertyName": "Actors"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.CardActorsComponent"
-        }
-      },
-      {
-        "HashCode": 1360170467,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.CardActorsComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.CardActorsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Actors",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
-            "Metadata": {
-              "Common.PropertyName": "Actors"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.CardActorsComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.FormActor",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -4572,6 +4166,195 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MovieProject.Client.Pages.Components.CardMoviesComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 296865194,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.SelectorMultiple",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SelectorMultiple"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "NoSeleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
+            "Metadata": {
+              "Common.PropertyName": "NoSeleccionados"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Seleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
+            "Metadata": {
+              "Common.PropertyName": "Seleccionados"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.SelectorMultiple"
+        }
+      },
+      {
+        "HashCode": -419734625,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.SelectorMultiple",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Components.SelectorMultiple"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "NoSeleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
+            "Metadata": {
+              "Common.PropertyName": "NoSeleccionados"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Seleccionados",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
+            "Metadata": {
+              "Common.PropertyName": "Seleccionados"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.SelectorMultiple",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2145289019,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.ImageComponent",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ImageComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Label",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Label"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "imageURL",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imageURL"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ImageSelected",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "ImageSelected",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.ImageComponent"
+        }
+      },
+      {
+        "HashCode": 55429862,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.ImageComponent",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Components.ImageComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Label",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Label"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "imageURL",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "imageURL"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ImageSelected",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "ImageSelected",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.ImageComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -116989202,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.CustonNotFound",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CustonNotFound"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.CustonNotFound"
+        }
+      },
+      {
+        "HashCode": 1719097021,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.CustonNotFound",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Components.CustonNotFound"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.CustonNotFound",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -5067,509 +4850,6 @@
         }
       },
       {
-        "HashCode": -116989202,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.CustonNotFound",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CustonNotFound"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.CustonNotFound"
-        }
-      },
-      {
-        "HashCode": 1719097021,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.CustonNotFound",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.CustonNotFound"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.CustonNotFound",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -153970033,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.FormActor",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FormActor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Actor",
-            "TypeName": "MovieProject.Shared.Entity.Actor",
-            "Metadata": {
-              "Common.PropertyName": "Actor"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.FormActor"
-        }
-      },
-      {
-        "HashCode": 1565671870,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.FormActor",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.FormActor"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Actor",
-            "TypeName": "MovieProject.Shared.Entity.Actor",
-            "Metadata": {
-              "Common.PropertyName": "Actor"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.FormActor",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1518888894,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.FormMovie",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FormMovie"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "MovieProject.Shared.Entity.Movie",
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoriasSeleccionadas",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
-            "Metadata": {
-              "Common.PropertyName": "CategoriasSeleccionadas"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoriasNoSeleccionadas",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
-            "Metadata": {
-              "Common.PropertyName": "CategoriasNoSeleccionadas"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ActoresSeleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
-            "Metadata": {
-              "Common.PropertyName": "ActoresSeleccionados"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.FormMovie"
-        }
-      },
-      {
-        "HashCode": -1679792507,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.FormMovie",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.FormMovie"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "MovieProject.Shared.Entity.Movie",
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoriasSeleccionadas",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
-            "Metadata": {
-              "Common.PropertyName": "CategoriasSeleccionadas"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CategoriasNoSeleccionadas",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Category>",
-            "Metadata": {
-              "Common.PropertyName": "CategoriasNoSeleccionadas"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ActoresSeleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
-            "Metadata": {
-              "Common.PropertyName": "ActoresSeleccionados"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.FormMovie",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2145289019,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.ImageComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ImageComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Label",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Label"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "imageURL",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "imageURL"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ImageSelected",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
-            "Metadata": {
-              "Common.PropertyName": "ImageSelected",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.ImageComponent"
-        }
-      },
-      {
-        "HashCode": 55429862,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.ImageComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.ImageComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Label",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Label"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "imageURL",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "imageURL"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ImageSelected",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.String>",
-            "Metadata": {
-              "Common.PropertyName": "ImageSelected",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.ImageComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1735425843,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.MovieConponennt",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieConponennt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "MovieProject.Shared.Entity.Movie",
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DeleteMovie",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<MovieProject.Shared.Entity.Movie>",
-            "Metadata": {
-              "Common.PropertyName": "DeleteMovie",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.MovieConponennt"
-        }
-      },
-      {
-        "HashCode": 1760954238,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.MovieConponennt",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.MovieConponennt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "MovieProject.Shared.Entity.Movie",
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DeleteMovie",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<MovieProject.Shared.Entity.Movie>",
-            "Metadata": {
-              "Common.PropertyName": "DeleteMovie",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.MovieConponennt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1059939331,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.MoviesComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MoviesComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movies",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Movie>",
-            "Metadata": {
-              "Common.PropertyName": "Movies"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.MoviesComponent"
-        }
-      },
-      {
-        "HashCode": 1136767736,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.MoviesComponent",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.MoviesComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movies",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Movie>",
-            "Metadata": {
-              "Common.PropertyName": "Movies"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.MoviesComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 296865194,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.SelectorMultiple",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SelectorMultiple"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "NoSeleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
-            "Metadata": {
-              "Common.PropertyName": "NoSeleccionados"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Seleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
-            "Metadata": {
-              "Common.PropertyName": "Seleccionados"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.SelectorMultiple"
-        }
-      },
-      {
-        "HashCode": -419734625,
-        "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Components.SelectorMultiple",
-        "AssemblyName": "MovieProject.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieProject.Client.Pages.Components.SelectorMultiple"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "NoSeleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
-            "Metadata": {
-              "Common.PropertyName": "NoSeleccionados"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Seleccionados",
-            "TypeName": "System.Collections.Generic.List<MovieProject.Client.Model.SelectorMultipleModel>",
-            "Metadata": {
-              "Common.PropertyName": "Seleccionados"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Components.SelectorMultiple",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1445697886,
         "Kind": "Components.Component",
         "Name": "MovieProject.Client.Pages.Components.SelectorMultipleTypeaHead<T>",
@@ -5851,35 +5131,248 @@
         }
       },
       {
-        "HashCode": 886308459,
+        "HashCode": 1059939331,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.MoviesHome",
+        "Name": "MovieProject.Client.Pages.Components.MoviesComponent",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MoviesHome"
+            "TagName": "MoviesComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movies",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Movie>",
+            "Metadata": {
+              "Common.PropertyName": "Movies"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.MoviesHome"
+          "Common.TypeName": "MovieProject.Client.Pages.Components.MoviesComponent"
         }
       },
       {
-        "HashCode": -1189032266,
+        "HashCode": 1136767736,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.MoviesHome",
+        "Name": "MovieProject.Client.Pages.Components.MoviesComponent",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MovieProject.Client.Pages.MoviesHome"
+            "TagName": "MovieProject.Client.Pages.Components.MoviesComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movies",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Movie>",
+            "Metadata": {
+              "Common.PropertyName": "Movies"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.MoviesHome",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.MoviesComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 978921612,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.CardActorsComponent",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CardActorsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Actors",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
+            "Metadata": {
+              "Common.PropertyName": "Actors"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.CardActorsComponent"
+        }
+      },
+      {
+        "HashCode": 1360170467,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.CardActorsComponent",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Components.CardActorsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Actors",
+            "TypeName": "System.Collections.Generic.List<MovieProject.Shared.Entity.Actor>",
+            "Metadata": {
+              "Common.PropertyName": "Actors"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.CardActorsComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1735425843,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.MovieConponennt",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieConponennt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "MovieProject.Shared.Entity.Movie",
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DeleteMovie",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<MovieProject.Shared.Entity.Movie>",
+            "Metadata": {
+              "Common.PropertyName": "DeleteMovie",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.MovieConponennt"
+        }
+      },
+      {
+        "HashCode": 1760954238,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Components.MovieConponennt",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Components.MovieConponennt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "MovieProject.Shared.Entity.Movie",
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DeleteMovie",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<MovieProject.Shared.Entity.Movie>",
+            "Metadata": {
+              "Common.PropertyName": "DeleteMovie",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Components.MovieConponennt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1074579898,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Movies.ShowMovie",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShowMovie"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MovieId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "MovieId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Moviename",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Moviename"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Movies.ShowMovie"
+        }
+      },
+      {
+        "HashCode": 1888038925,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Movies.ShowMovie",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Movies.ShowMovie"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MovieId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "MovieId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Moviename",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Moviename"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Movies.ShowMovie",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -6003,124 +5496,545 @@
         }
       },
       {
-        "HashCode": -1074579898,
+        "HashCode": -1851923433,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Movies.ShowMovie",
+        "Name": "MovieProject.Client.Pages.Actoreshomne",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ShowMovie"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "MovieId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "MovieId"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Moviename",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Moviename"
-            }
+            "TagName": "Actoreshomne"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Movies.ShowMovie"
+          "Common.TypeName": "MovieProject.Client.Pages.Actoreshomne"
         }
       },
       {
-        "HashCode": 1888038925,
+        "HashCode": -462443700,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Pages.Movies.ShowMovie",
+        "Name": "MovieProject.Client.Pages.Actoreshomne",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MovieProject.Client.Pages.Movies.ShowMovie"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "MovieId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "MovieId"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Moviename",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Moviename"
-            }
+            "TagName": "MovieProject.Client.Pages.Actoreshomne"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Pages.Movies.ShowMovie",
+          "Common.TypeName": "MovieProject.Client.Pages.Actoreshomne",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -611612783,
+        "HashCode": -1013974005,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Shared.SurveyPrompt",
+        "Name": "MovieProject.Client.Pages.Categories.EditCategory",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
+            "TagName": "EditCategory"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Id",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Shared.SurveyPrompt"
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.EditCategory"
         }
       },
       {
-        "HashCode": -613162605,
+        "HashCode": 1200868275,
         "Kind": "Components.Component",
-        "Name": "MovieProject.Client.Shared.SurveyPrompt",
+        "Name": "MovieProject.Client.Pages.Categories.EditCategory",
         "AssemblyName": "MovieProject.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MovieProject.Client.Shared.SurveyPrompt"
+            "TagName": "MovieProject.Client.Pages.Categories.EditCategory"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
+            "Name": "Id",
+            "TypeName": "System.Int32",
             "Metadata": {
-              "Common.PropertyName": "Title"
+              "Common.PropertyName": "Id"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MovieProject.Client.Shared.SurveyPrompt",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.EditCategory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 109169833,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.ShowCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShowCategory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoryId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "CategoryId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Categoryname",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Categoryname"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategory"
+        }
+      },
+      {
+        "HashCode": -696478434,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.ShowCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Categories.ShowCategory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "CategoryId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "CategoryId"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Categoryname",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Categoryname"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -142341569,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.FormCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FormCategory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Category",
+            "TypeName": "MovieProject.Shared.Entity.Category",
+            "Metadata": {
+              "Common.PropertyName": "Category"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.FormCategory"
+        }
+      },
+      {
+        "HashCode": -364411195,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.FormCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Categories.FormCategory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Category",
+            "TypeName": "MovieProject.Shared.Entity.Category",
+            "Metadata": {
+              "Common.PropertyName": "Category"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.FormCategory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -695626847,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.ShowCategories",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShowCategories"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategories"
+        }
+      },
+      {
+        "HashCode": 1931369267,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.ShowCategories",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Categories.ShowCategories"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.ShowCategories",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 830710785,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.CreateCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreateCategory"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.CreateCategory"
+        }
+      },
+      {
+        "HashCode": -1996220289,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Categories.CreateCategory",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Categories.CreateCategory"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Categories.CreateCategory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -634294510,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.CreateActors",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreateActors"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.CreateActors"
+        }
+      },
+      {
+        "HashCode": 132089693,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.CreateActors",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Actors.CreateActors"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.CreateActors",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1995886216,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.ShowActor",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShowActor"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowActor"
+        }
+      },
+      {
+        "HashCode": -2017654333,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.ShowActor",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Actors.ShowActor"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowActor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 660567994,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.ShowwActors",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShowwActors"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowwActors"
+        }
+      },
+      {
+        "HashCode": 1738144521,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.ShowwActors",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Actors.ShowwActors"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.ShowwActors",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 212923114,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.EditActor",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditActor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ActorId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "ActorId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.EditActor"
+        }
+      },
+      {
+        "HashCode": 960074883,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.EditActor",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Actors.EditActor"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ActorId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "ActorId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.EditActor",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -229288752,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.FiltroActores",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FiltroActores"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.FiltroActores"
+        }
+      },
+      {
+        "HashCode": 1404377293,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.Actors.FiltroActores",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.Actors.FiltroActores"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.Actors.FiltroActores",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 886308459,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.MoviesHome",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MoviesHome"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.MoviesHome"
+        }
+      },
+      {
+        "HashCode": -1189032266,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.MoviesHome",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.MoviesHome"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.MoviesHome",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1235473925,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.CategoriasHome",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CategoriasHome"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.CategoriasHome"
+        }
+      },
+      {
+        "HashCode": -839677419,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Pages.CategoriasHome",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Pages.CategoriasHome"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Pages.CategoriasHome",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -6221,6 +6135,59 @@
         }
       },
       {
+        "HashCode": -611612783,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Shared.SurveyPrompt",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -613162605,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.Shared.SurveyPrompt",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 125661726,
         "Kind": "Components.Component",
         "Name": "MovieProject.Client.Shared.NavMenu",
@@ -6250,6 +6217,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MovieProject.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 291402046,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.App",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.App"
+        }
+      },
+      {
+        "HashCode": 1519972870,
+        "Kind": "Components.Component",
+        "Name": "MovieProject.Client.App",
+        "AssemblyName": "MovieProject.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieProject.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MovieProject.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
