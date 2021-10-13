@@ -7,17 +7,19 @@
         <div class="jumbotron">
             <div class="form-group">
                 <div class="row">
-                    <div class="col col-sm-9">
+                    <div class="col col-sm-7">
                         @* Input para ingresar el nombre de la pelicula *@
-                        <InputText class="form-control" @bind-Value="@Movie.Moviename"></InputText>
+                        <label>Nombre Pelicula</label>
+                        <InputText class="form-control" @bind-Value="@Movie.Moviename" placeholder="Pelicula"></InputText>
                         <ValidationMessage For="@(()=>Movie.Moviename)"></ValidationMessage>
                     </div>
-                    <div class="col col-sm-3">
+                    <div class="col col-sm-5">
+                        
                         @* Checkbox para definir si esta o no en cartelera *@
-                        <InputCheckbox id="en_cartelera" class="form-check-input" @bind-Value="@Movie.EnCartelera">
+                        @* <InputCheckbox id="en_cartelera" class="form-check-input" @bind-Value="@Movie.EnCartelera">
                         </InputCheckbox>
                         <label class="form-check-label" for="en_cartelera">En cartelera</label>
-                        <ValidationMessage For="@(()=>Movie.EnCartelera)"></ValidationMessage>
+                        <ValidationMessage For="@(()=>Movie.EnCartelera)"></ValidationMessage> *@
                     </div>
                 </div>
             </div>
@@ -25,12 +27,14 @@
                 <div class="row">
                     <div class="col">
                         @* Input para ingresar el trailer *@
+                        <label>Trailer de la pelicula:</label>
                         <InputText class="form-control" @bind-Value="@Movie.Trailer"></InputText>
                         <ValidationMessage For="@(()=>Movie.Trailer)"></ValidationMessage>
                     </div>
                     <div class="col">
                         <div class="form-group">
                             @* Fecha de lanzamiento*@
+                            <label>Fecha de Nacimiento:</label>
                             <InputDate class="form-control" @bind-Value="@Movie.Premier"></InputDate>
                             <ValidationMessage For="@(()=>Movie.Premier)"></ValidationMessage>
                         </div>
@@ -39,6 +43,7 @@
             </div>
             @* Sinopsis de la pelicula... descripción *@
             <div class="form-group">
+                <label>Sipnosis:</label>
                 <InputTextArea class="form-control" @bind-Value="@Movie.Sinopsis"></InputTextArea>
                 <ValidationMessage For="@(()=>Movie.Sinopsis)"></ValidationMessage>
             </div>
