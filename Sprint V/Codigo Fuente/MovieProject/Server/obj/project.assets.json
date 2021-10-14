@@ -6805,11 +6805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Server\\MovieProject.Server.csproj",
+      "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Server\\MovieProject.Server.csproj",
       "projectName": "MovieProject.Server",
-      "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Server\\MovieProject.Server.csproj",
+      "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Server\\MovieProject.Server.csproj",
       "packagesPath": "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\",
-      "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Server\\obj\\",
+      "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FAMILIAPARRA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6824,11 +6824,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Client\\MovieProject.Client.csproj": {
-              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Client\\MovieProject.Client.csproj"
+            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Client\\MovieProject.Client.csproj": {
+              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Client\\MovieProject.Client.csproj"
             },
-            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj": {
-              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj"
+            "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj": {
+              "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj"
             }
           }
         }

@@ -22,3 +22,15 @@ C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieP
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.dll
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Shared\obj\Debug\net5.0\ref\MovieProject.Shared.dll
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint IV\Codigo Fuente Proyecto\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\bin\Debug\net5.0\MovieProject.Shared.deps.json
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\bin\Debug\net5.0\MovieProject.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\bin\Debug\net5.0\ref\MovieProject.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\bin\Debug\net5.0\MovieProject.Shared.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.csproj.AssemblyReference.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.AssemblyInfoInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.AssemblyInfo.cs
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.csproj.CoreCompileInputs.cache
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\ref\MovieProject.Shared.dll
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Shared\obj\Debug\net5.0\MovieProject.Shared.pdb

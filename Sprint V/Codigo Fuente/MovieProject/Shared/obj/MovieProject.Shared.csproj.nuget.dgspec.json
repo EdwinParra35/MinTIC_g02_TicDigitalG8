@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj": {}
+    "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj": {}
   },
   "projects": {
-    "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj": {
+    "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj",
+        "projectUniqueName": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj",
         "projectName": "MovieProject.Shared",
-        "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\MovieProject.Shared.csproj",
+        "projectPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\MovieProject.Shared.csproj",
         "packagesPath": "C:\\Users\\FAMILIAPARRA\\.nuget\\packages\\",
-        "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint IV\\Codigo Fuente Proyecto\\MovieProject\\Shared\\obj\\",
+        "outputPath": "C:\\ProysCicloIII\\MinTIC_g02_TicDigitalG8\\Sprint V\\Codigo Fuente\\MovieProject\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FAMILIAPARRA\\AppData\\Roaming\\NuGet\\NuGet.Config"
