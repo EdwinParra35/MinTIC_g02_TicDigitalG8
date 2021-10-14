@@ -2056,3 +2056,5 @@ C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Cli
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\obj\Debug\net5.0\MovieProject.Client.dll
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\obj\Debug\net5.0\ref\MovieProject.Client.dll
 C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\obj\Debug\net5.0\MovieProject.Client.pdb
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\GenericList.razor.g.cs
+C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\obj\Debug\net5.0\Razor\Pages\Components\GenericList.razor.g.cs

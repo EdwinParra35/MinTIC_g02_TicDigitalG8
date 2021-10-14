@@ -96,7 +96,7 @@ using MovieProject.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    public partial class SelectorMultipleTypeaHead<T> : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class GenericList<Titem> : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,36 +104,13 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Components\SelectorMultipleTypeaHead.razor"
-       
-    [Parameter] public List<T> ElementosSeleccionados { get; set; } = new List<T>();
-    [Parameter] public Func<string, Task<IEnumerable<T>>> SearchMethod {get;set;}
-    [Parameter] public RenderFragment<T> MyResultTemplate { get; set; }
-    [Parameter] public RenderFragment<T> MyListTemplate { get; set; }
-    T sampleItem = default(T);
-    T itemArrastrado;
-    private void HandleDragStart(T item)
-    {
-        itemArrastrado = item;
-    }
-    private void HandleDragOver(T item)
-    {
-        if (!item.Equals(itemArrastrado))
-        {
-            var indiceElementoArrastrado = ElementosSeleccionados.IndexOf(itemArrastrado);
-            var indiceElemento = ElementosSeleccionados.IndexOf(item);
-            ElementosSeleccionados[indiceElemento] = itemArrastrado;
-            ElementosSeleccionados[indiceElementoArrastrado] = item;
-        }
-    }
-    private void ElementoSeleccionado(T item)
-    {
-        if (!ElementosSeleccionados.Any(x => x.Equals(item)))
-        {
-            ElementosSeleccionados.Add(item);
-        }
-        sampleItem = default(T);
-    }
+#line 34 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Components\GenericList.razor"
+      
+    [Parameter] public RenderFragment Loading {get;set;}
+    [Parameter] public RenderFragment NoItems {get;set;}
+    [Parameter] public RenderFragment<Titem> ExistsItems {get;set;}
+    [Parameter] public RenderFragment ItemsComplete {get;set;}
+    [Parameter] public List<Titem> ListResults {get;set;}
 
 #line default
 #line hidden
