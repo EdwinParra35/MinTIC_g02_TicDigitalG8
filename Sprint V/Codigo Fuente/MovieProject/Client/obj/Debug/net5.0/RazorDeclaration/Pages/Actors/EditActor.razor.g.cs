@@ -112,26 +112,65 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\EditActor.razor"
+#line 22 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\EditActor.razor"
        
-    [Parameter] public int ActorId { get; set; }
-    Actor Actor = new Actor();
-    protected override void OnInitialized()
+
+    [Parameter] public int Id { get; set; }
+    Actor Actor;
+    protected async override Task OnInitializedAsync()
     {
-        Actor = new Actor()
+        var httpResponse = await movie.Get<Actor>($"api/actors/{Id}");
+        if (httpResponse.Error)
         {
-            Id = ActorId,
-            ActorName = "Will Smith",
-            BirthDate = DateTime.Today
-        };
+            
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 31 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\EditActor.razor"
+                                                                             
+            if (httpResponse.HttpResponseMessage.StatusCode == System.Net.HttpStatusCode.NotFound)
+           {
+                navigationManager.NavigateTo("actors");
+            }
+            else
+            {
+                
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 38 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\EditActor.razor"
+                                                    
+                await showMessage.ShowErrorMessage(await httpResponse.GetBody());
+            }
+        }
+        else
+        {
+            Actor = httpResponse.Response;
+            Console.WriteLine(Actor.Photo);
+        }
     }
-    private void Edit(){
-        Console.WriteLine("Editando actor");
+
+    private async Task Edit()
+    {
+        var httpResponse = await movie.Put("api/actors", Actor);
+        if (httpResponse.Error)
+        {
+            await showMessage.ShowErrorMessage(await httpResponse.GetBody());
+        }else{
+            navigationManager.NavigateTo("actors");
+        }
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage showMessage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movie { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -97,7 +97,7 @@ using MovieProject.Client.Services;
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\CreateMovie.razor"
+#line 2 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\CreateMovie.razor"
 using MovieProject.Client.Pages.Components;
 
 #line default
@@ -112,23 +112,30 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 8 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\CreateMovie.razor"
+#line 16 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\CreateMovie.razor"
        
     private Movie Movie = new Movie();
     private List<Category> CategoriasNoSeleccionadas = new List<Category>();
+    
 
-    protected override void OnInitialized()
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\CreateMovie.razor"
+                                                                             
+    private bool ShowMoviesForm{get;set;} = false;
+
+    protected async override Task OnInitializedAsync()
     {
-        CategoriasNoSeleccionadas = new List<Category>(){
-        new Category(){Id = 1, Name="Terror"},
-        new Category(){Id = 6, Name="Comedia"},
-        new Category(){Id = 7, Name="Accion"},
-        new Category(){Id = 8, Name="Drama"}
-    };
+        var responseHttp = await movie_i.Get<List<Category>>("api/categories");
+        CategoriasNoSeleccionadas = responseHttp.Response;
+        ShowMoviesForm = true;
     }
+
     async Task Create()
     {
-        var httpResponse = await repositorio.Post<Movie,int>("api/movies", Movie);
+        var httpResponse = await movie_i.Post<Movie, int>("api/movies", Movie);
         if (httpResponse.Error)
         {
             var body = await httpResponse.GetBody();
@@ -138,19 +145,16 @@ using MovieProject.Client.Pages.Components;
         else
         {
             var MovieId = httpResponse.Response;
-            navigationManager.NavigateTo($"/movie/{MovieId}/{Movie.Moviename.Replace("  ","-")}");
+            navigationManager.NavigateTo($"/movie/{MovieId}/{Movie.Moviename.Replace(" ", "-")}");
         }
     }
-
-
-    
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage showMessage { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie repositorio { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage showMessage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movie_i { get; set; }
     }
 }
 #pragma warning restore 1591

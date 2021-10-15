@@ -96,6 +96,13 @@ using MovieProject.Client.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\ShowActor.razor"
+using MovieProject.Client.Pages.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/actors")]
     public partial class ShowActor : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -104,6 +111,36 @@ using MovieProject.Client.Services;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 33 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Actors\ShowActor.razor"
+       
+    public List<Actor> Actors { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+
+        await Load();
+    }
+    private async Task Load()
+    {
+        var responseHttp = await movie.Get<List<Actor>>("api/actors");
+        Actors = responseHttp.Response;
+    }
+
+    private async Task DeleteActor(Actor Actor){
+        var responseHttp = await movie.Delete($"api/actors/{Actor.Id}");
+        if (responseHttp.Error)
+        {
+            await showMessage.ShowErrorMessage(await responseHttp.GetBody());
+        }else{
+            await Load();
+        }
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IErrorMessage showMessage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movie { get; set; }
     }
 }
 #pragma warning restore 1591

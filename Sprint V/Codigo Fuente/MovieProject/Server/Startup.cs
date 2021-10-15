@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using System.Linq;
 using MovieProject.Server.Storage;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using Newtonsoft.Json;
 
 namespace MovieProject.Server
 {
@@ -33,7 +35,9 @@ namespace MovieProject.Server
             // services.AddScoped<IFilesStorageClass,FilesStorageClass>();
             services.AddScoped<IFilesStorageClass,FilesLocalStorage>();
             services.AddHttpContextAccessor();
-            services.AddControllersWithViews();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddControllersWithViews().AddNewtonsoftJson(
+            options => options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             services.AddRazorPages();
         }
 
