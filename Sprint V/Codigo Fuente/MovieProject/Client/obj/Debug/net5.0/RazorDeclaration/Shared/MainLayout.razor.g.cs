@@ -104,7 +104,7 @@ using MovieProject.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Shared\MainLayout.razor"
+#line 80 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Shared\MainLayout.razor"
        
 
     private bool expandSubNav=false;

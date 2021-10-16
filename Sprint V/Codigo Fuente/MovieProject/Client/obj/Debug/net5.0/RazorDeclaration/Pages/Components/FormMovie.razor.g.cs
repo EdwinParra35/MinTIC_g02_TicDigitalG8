@@ -111,7 +111,7 @@ using MovieProject.Client.Model;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 105 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Components\FormMovie.razor"
+#line 104 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Components\FormMovie.razor"
        
     [Parameter] public Movie Movie { get; set; }
     [Parameter] public EventCallback OnValidSubmit { get; set; }
@@ -140,14 +140,12 @@ using MovieProject.Client.Model;
         }
     }
 
-    private async Task<IEnumerable<Actor>> BuscarActores(string searchText)
+    private async Task<IEnumerable<Actor>> SearchActors(string searchText)
     {
-        return new List<Actor>(){
-        new Actor(){Id=1, ActorName="Yaneth Mejía", Photo="https://pbs.twimg.com/profile_images/1079060744891785216/dAsFSbHH_400x400.jpg"},
-        new Actor(){Id=2, ActorName="Carolina Marquez", Photo="https://archivo.autonoma.edu.co/sites/default/files/styles/medium/public/carolina-marquez-narvaez.jpg?itok=CcL43PAR"},
-        new Actor(){Id=3, ActorName="Juan Esteban", Photo="https://cdn1.vectorstock.com/i/1000x1000/29/65/cinema-award-best-actor-flat-style-vector-13602965.jpg"}
-        };
-    }  
+        var responseHttp = await movie_i.Get<List<Actor>>($"api/actors/search/{searchText}");
+        return responseHttp.Response;
+    }
+  
 
     private async Task OnDataAnnotationsValidated(){
     Movie.CategoriesMovie = Seleccionados.Select(x => new CategoryMovie{CategoryId= int.Parse(x.Key)}).ToList();
@@ -161,6 +159,7 @@ using MovieProject.Client.Model;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IServiceMovie movie_i { get; set; }
     }
 }
 #pragma warning restore 1591

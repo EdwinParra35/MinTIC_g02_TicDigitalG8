@@ -92,5 +92,16 @@ namespace MovieProject.Server.Controllers
             await Context.SaveChangesAsync();
             return NoContent();
         }
+        [HttpGet("search/{text}")]
+        public async Task<ActionResult<List<Actor>>> Get(string text){
+            if(string.IsNullOrWhiteSpace(text)){
+                return new List<Actor>();
+            }
+            text = text.ToLower();
+            return await Context.Actors.Where(x=>x.ActorName.ToLower().Contains(text)).ToListAsync();
+
+        }
+
+
     }    
 }

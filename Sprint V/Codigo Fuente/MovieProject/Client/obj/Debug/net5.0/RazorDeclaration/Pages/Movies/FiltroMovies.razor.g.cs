@@ -112,7 +112,7 @@ using MovieProject.Client.Pages.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 74 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\FiltroMovies.razor"
+#line 82 "C:\ProysCicloIII\MinTIC_g02_TicDigitalG8\Sprint V\Codigo Fuente\MovieProject\Client\Pages\Movies\FiltroMovies.razor"
        
     private List<Movie> Movies;
     string movie_name = "";

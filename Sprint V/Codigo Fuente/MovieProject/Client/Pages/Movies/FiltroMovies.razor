@@ -11,7 +11,6 @@
                         id="movie_name" placeholder="Buscar pelicula" />
                 </div>
             </div>
-
             <div class="col">
                 <div class="form-group mb-2">
                     <select class="form-control" @bind="categorySelected">
@@ -60,14 +59,23 @@
                 </div>
             </div>
         </div>
-    </div>
-    <button type="button" class="btn btn-primary mb-2 btn-sm" @onclick="CargarNuevasPeliculas">
+        <div class="col">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                        <button type="button" class="btn btn-primary mb-2 btn-sm" @onclick="CargarNuevasPeliculas">
         Buscar
     </button>
 
     <button type="button" class="btn btn-secondary mb-2 btn-sm" @onclick="LimpiarCampos">
         Limpiar campos
     </button>
+
+                    
+            </div>
+        </div>
+        </div>
+    </div>
+    
 </div>
 <CardMoviesComponent Movies="Movies"></CardMoviesComponent>
 
